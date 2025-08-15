@@ -225,7 +225,7 @@ To ensure authenticity of land NFTs, verification is handled by **approved agenc
 * use this private key for Nigeria "Yobe Stat"e 9bcb1e72326e6179069ddb4c7ba0c91d6c0ec6a7bbb1c9b93a642ec0508cc9f1
 
 
-2. **Approval ** 
+2. **Approval ** /agency/dashboard`
 
    * Once approved, the agency receives an right that grants them access to verify land NFTs in their jurisdiction.
 
