@@ -68,7 +68,7 @@ export default function MyNFTs() {
     { label: "24 Hours", value: 86400 },
   ];
 
-  const MAX_TOKENS = 30;
+  const MAX_TOKENS = 40; // give more allowance to view token up to tokenId:40
 
 
   // At the top of your component
@@ -561,4 +561,5 @@ const handleRequestVerification = async (tokenId: number) => {
 async function readTokenURI(tokenId: number) {
   const res = await fetch(`/api/nft-uri?tokenId=${tokenId}`);
   return await res.json();
+
 }
