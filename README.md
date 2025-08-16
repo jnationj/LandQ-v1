@@ -330,5 +330,5 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 Maintainer: **Your Name**
 Email: [0xlandq@gmail.com](mailto:)
-Twitter: [@YourHandle](https://twitter.com/0xLandQ)
+Twitter: [@xLandQ](https://twitter.com/0xLandQ)
 
