@@ -35,7 +35,7 @@ export default function LandingHeader() {
           </Link>
         </nav>
         <Link
-        href="/app"
+        href="/mint"
         className="inline-block px-6 py-3 text-sm font-semibold rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-200"
         >
         Launch App
@@ -43,3 +43,4 @@ export default function LandingHeader() {
     </header>
   );
 }
+
