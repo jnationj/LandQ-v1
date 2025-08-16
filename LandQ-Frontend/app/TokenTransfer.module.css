@@ -1,0 +1,93 @@
+.tokenTransferContainer {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #fff;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: #ff6b00;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.balanceInfo {
+  background: #fff5eb;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  color: #ff6b00;
+  font-weight: 500;
+  text-align: center;
+}
+
+.inputGroup {
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid #ffe4cc;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #ff6b00;
+  box-shadow: 0 0 0 3px rgba(255, 107, 0, 0.1);
+}
+
+.input::placeholder {
+  color: #999;
+}
+
+.transferButton {
+  width: 100%;
+  padding: 0.75rem;
+  background: #ff6b00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.transferButton:hover {
+  background: #e55c00;
+}
+
+.transferButton:disabled {
+  background: #ffb380;
+  cursor: not-allowed;
+}
+
+.errorMessage {
+  color: #ff3b30;
+  margin: 0.5rem 0;
+  font-size: 0.875rem;
+  padding: 0.75rem;
+  background: #ffebeb;
+  border-radius: 8px;
+}
+
+.errorMessage a {
+  color: #ff6b00;
+  text-decoration: underline;
+  margin-left: 0.5rem;
+}
+
+.errorMessage a:hover {
+  color: #e55c00;
+}
